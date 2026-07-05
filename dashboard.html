@@ -1,1 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Alpha Rewards</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#eef3ff;
+}
+
+header{
+background:#0047AB;
+color:white;
+padding:18px 25px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+.container{
+padding:20px;
+}
+
+h2{
+margin-bottom:20px;
+color:#0047AB;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.card h3{
+color:#0047AB;
+margin-bottom:10px;
+}
+
+.referral{
+background:white;
+margin-top:25px;
+padding:20px;
+border-radius:12px;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+input{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:1px solid #ccc;
+border-radius:6px;
+}
+
+button{
+margin-top:15px;
+padding:12px 20px;
+background:#0047AB;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#003080;
+}
+
+footer{
+margin-top:40px;
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">💎 Alpha Rewards</div>
+<div>Welcome, User</div>
+</header>
+
+<div class="container">
+
+<h2>Dashboard</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>💰 Earnings</h3>
+<h1>KSh 0</h1>
+</div>
+
+<div class="card">
+<h3>👥 Referrals</h3>
+<h1>0</h1>
+</div>
+
+<div class="card">
+<h3>💸 Withdrawable</h3>
+<h1>KSh 0</h1>
+</div>
+
+</div>
+
+<div class="referral">
+
+<h3>🔗 My Referral Link</h3>
+
+<input
+type="text"
+value="https://alpharewards.com/ref/USER123"
+readonly>
+
+<button>Copy Link</button>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Alpha Rewards
+
+</footer>
+
+</body>
+</html>
