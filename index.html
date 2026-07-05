@@ -3,106 +3,153 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>JM Cleaning Services</title>
+<title>Alpha Rewards</title>
 
 <style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f4f4;
-    color:#333;
+background:#eef3ff;
 }
+
 header{
-    background:#0b7a75;
-    color:white;
-    text-align:center;
-    padding:40px 20px;
+background:#0047AB;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
 }
-section{
-    max-width:900px;
-    margin:auto;
-    padding:20px;
+
+.logo{
+font-size:28px;
+font-weight:bold;
 }
-.card{
-    background:white;
-    padding:20px;
-    margin:15px 0;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
 }
+
+.hero{
+background:#0047AB;
+color:white;
+text-align:center;
+padding:70px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:25px;
+}
+
 .button{
-    display:inline-block;
-    background:#0b7a75;
-    color:white;
-    padding:12px 20px;
-    text-decoration:none;
-    border-radius:5px;
+background:white;
+color:#0047AB;
+padding:12px 25px;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+margin:5px;
+display:inline-block;
 }
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.1);
+text-align:center;
+}
+
+.card h2{
+color:#0047AB;
+margin-bottom:10px;
+}
+
 footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
 }
 </style>
-
 </head>
+
 <body>
 
 <header>
-<h1>JM Cleaning Services</h1>
-<p>Professional • Reliable • Affordable</p>
+
+<div class="logo">💎 Alpha Rewards</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Dashboard</a>
+<a href="#">Referrals</a>
+<a href="#">Earnings</a>
+<a href="#">Profile</a>
+</nav>
+
 </header>
 
-<section>
+<section class="hero">
+
+<h1>Welcome to Alpha Rewards</h1>
+
+<p>Your referral rewards platform.</p>
+
+<a href="#" class="button">Register</a>
+<a href="#" class="button">Login</a>
+
+</section>
+
+<section class="cards">
 
 <div class="card">
-<h2>Our Services</h2>
-
-<ul>
-<li>🏠 House Cleaning</li>
-<li>🍽 Washing Utensils</li>
-<li>🛒 Shopping</li>
-<li>🎨 Interior Design</li>
-<li>👨‍🍳 Cooking</li>
-</ul>
-
+<h2>👥 My Referrals</h2>
+<p>0</p>
 </div>
 
 <div class="card">
-
-<h2>Why Choose Us?</h2>
-
-<p>
-✔ Trusted Staff<br>
-✔ Affordable Prices<br>
-✔ Fast & Professional Service<br>
-✔ Customer Satisfaction Guaranteed
-</p>
-
+<h2>💰 Earnings</h2>
+<p>KSh 0</p>
 </div>
 
 <div class="card">
+<h2>🔗 Referral Link</h2>
+<p>Generate after login</p>
+</div>
 
-<h2>Contact Us</h2>
-
-<p>
-📞 Phone: 07XXXXXXXX<br>
-📧 Email: your@email.com
-</p>
-
-<a class="button" href="https://wa.me/2547XXXXXXXX">
-Chat on WhatsApp
-</a>
-
+<div class="card">
+<h2>💸 Withdraw</h2>
+<p>Coming Soon</p>
 </div>
 
 </section>
 
 <footer>
 
-© 2026 JM Cleaning Services. All Rights Reserved.
+© 2026 Alpha Rewards
 
 </footer>
 
